@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="#344955"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/mcqs_show"></include>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="312dp"
+            android:text="20"
+            android:layout_marginTop="14dp"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:id="@+id/timer"></TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="17dp"
+    android:layout_marginLeft="140dp"
+    android:textColor="#FFFF00"
+    android:text="1/10"
+    android:id="@+id/plus"
+    android:textSize="30dp"></TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        app:cardBackgroundColor="#FEDBD0">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halo how are you?"
+        android:id="@+id/qtxt"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5sp"
+        android:textSize="25sp"></TextView>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:text="Adil"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff"
+        android:id="@+id/mcq1"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:background="#875FC0"></Button>
+    <Button
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:text="Jazab"
+        android:id="@+id/mcq2"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#875FC0"></Button>
+    <Button
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:text="Adil"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:textColor="	#fff"
+        android:id="@+id/mcq3"
+        android:layout_marginTop="10dp"
+        android:background="#875FC0"></Button>
+
+    <Button
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:text="Jazab"
+        android:id="@+id/mcq4"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="#875FC0"></Button>
+     <Button
+     android:layout_width="200dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="25dp"
+     android:layout_marginLeft="75dp"
+     android:background="#FF0000"
+     android:text="NEXT"
+     android:textColor="#fff"
+     android:id="@+id/next"
+     android:textSize="25dp"></Button>
+</LinearLayout>

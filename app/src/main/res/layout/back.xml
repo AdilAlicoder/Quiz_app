@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcqz"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="@null"></ImageButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:textColor="	#000080"
+        android:textSize="32dp"
+        android:layout_marginLeft="80dp"></TextView>
+</androidx.appcompat.widget.Toolbar>
